@@ -1,0 +1,113 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+p {
+  color: #8f8f8f;
+  margin: 5% 0;
+
+}
+
+/* ------------------------------Title section ----------------------------*/
+/* Left -section */
+#title {
+  background-color: #e5f8ff;
+  background-image: url('../images/bg-hero-desktop.svg');
+  padding: 2% 3%;
+}
+
+.top-left-section {
+  padding: 0 10% 0 5%;
+}
+
+.big-title {
+  margin-top: 130px;
+  margin-bottom: 5%;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+/* Right Section */
+.title-image {
+  width: 100%;
+  margin-top: 50px;
+  padding: 0 3%;
+}
+
+@media (max-width: 990px) {
+  #content,#title {
+    text-align: center;
+  }
+}
+
+/*------------------------------ Button ----------------------------------*/
+.btn-1 {
+  font-size: 1rem;
+  border-radius: 20px;
+  width: 180px;
+  border: 1px solid #e3ebee;
+}
+
+.btn-2 {
+  background-color: #fe52c0;
+  color: #fff;
+  font-size: 1rem;
+  width: 230px;
+  border-radius: 30px;
+  padding: 2%;
+  margin-top: 3%;
+}
+
+/*............................... Content section ........................*/
+#content{
+  margin:10%;
+}
+
+.content-image{
+  width: 100%;
+}
+
+.content-row{
+  margin: 5% 0;
+  border: 1px solid #e3ebee;
+  padding: 50px 100px;
+}
+
+.content-title{
+  margin-top: 20%;
+}
+
+/* Topup Section */
+#topup{
+  background-color: #fff;
+  border: 1px solid #e3ebee;
+  border-radius: 16px;
+  padding: 4%;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+/* Lower section */
+#end{
+  background-color: #00252e;
+  color:#fff;
+  padding: 7% 4% 3%;
+}
+
+.spacing{
+  margin-right: 3%;
+}
+
+.middle-part{
+  padding: 2% 5%;
+
+}
+
+.lower-part{
+  padding: 2% 5%;
+}
+.fab{
+  line-height: 1rem;
+  padding: 5% 4%;
+}
